@@ -1,47 +1,47 @@
-# HTML Test Proef
+# HTML Test Project
 
-Een responsive proefproject met 5 HTML-pagina's om online te experimenteren via GitHub Pages.
+A responsive test project with 5 HTML pages for experimenting online via GitHub Pages.
 
 ## Live site
 
-Na het activeren van GitHub Pages:
+After enabling GitHub Pages:
 
 **https://stefanwillem.github.io/html-test-proef/**
 
-## Pagina's
+## Pages
 
-| Bestand | Pagina |
-|---------|--------|
+| File | Page |
+|------|------|
 | `index.html` | Home |
-| `pagina2.html` | Over ons |
-| `pagina3.html` | Diensten |
-| `pagina4.html` | Galerij |
+| `pagina2.html` | About us |
+| `pagina3.html` | Services |
+| `pagina4.html` | Gallery |
 | `pagina5.html` | Contact |
 
-## GitHub Pages activeren
+## Enable GitHub Pages
 
-1. Ga naar **Settings → Pages**
+1. Go to **Settings → Pages**
 2. Source: **Deploy from a branch**
 3. Branch: **main**, folder: **/ (root)**
-4. Klik **Save**
+4. Click **Save**
 
-De site is binnen 1–2 minuten live.
+The site goes live within 1–2 minutes.
 
-## HTML online bewerken
+## Edit HTML online
 
-1. Open een `.html`-bestand in GitHub
-2. Klik het potlood-icoon (Edit)
-3. Pas de HTML aan
-4. Klik **Commit changes**
-5. Ververs de live site
+1. Open an `.html` file on GitHub
+2. Click the pencil icon (Edit)
+3. Update the HTML
+4. Click **Commit changes**
+5. Refresh the live site
 
-## Lokaal bekijken
+## View locally
 
-Open `index.html` in je browser, of start een simpele server:
+Open `index.html` in your browser, or start a simple server:
 
 ```bash
 cd html-test-proef
 python3 -m http.server 8080
 ```
 
-Ga naar http://localhost:8080
+Go to http://localhost:8080

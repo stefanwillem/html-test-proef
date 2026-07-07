@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact — HTML Test Proef</title>
+  <title>Contact — HTML Test Project</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,14 +12,14 @@
     <nav class="nav-container">
       <a href="index.html" class="logo">
         <span class="logo-icon">⚡</span>
-        HTML Test Proef
+        HTML Test Project
       </a>
       <button class="nav-toggle" aria-label="Menu">☰</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="pagina2.html">Over ons</a></li>
-        <li><a href="pagina3.html">Diensten</a></li>
-        <li><a href="pagina4.html">Galerij</a></li>
+        <li><a href="pagina2.html">About us</a></li>
+        <li><a href="pagina3.html">Services</a></li>
+        <li><a href="pagina4.html">Gallery</a></li>
         <li><a href="pagina5.html">Contact</a></li>
       </ul>
     </nav>
@@ -28,33 +28,33 @@
   <main>
     <section class="page-header">
       <h1>Contact</h1>
-      <p>Test een formulier en contactgegevens. Het formulier is puur visueel — het verstuurt niets.</p>
+      <p>Test a form and contact details. The form is visual only — it does not send anything.</p>
     </section>
 
     <section class="container">
       <div class="form-card">
-        <form onsubmit="event.preventDefault(); alert('Dit is een testformulier — er wordt niets verstuurd!');">
+        <form onsubmit="event.preventDefault(); alert('This is a test form — nothing will be sent!');">
           <div class="form-group">
-            <label for="naam">Naam</label>
-            <input type="text" id="naam" name="naam" placeholder="Je volledige naam" required>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
           </div>
           <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="jouw@email.nl" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" required>
           </div>
           <div class="form-group">
-            <label for="onderwerp">Onderwerp</label>
-            <select id="onderwerp" name="onderwerp">
-              <option value="vraag">Algemene vraag</option>
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="question">General question</option>
               <option value="feedback">Feedback</option>
-              <option value="samenwerking">Samenwerking</option>
+              <option value="collaboration">Collaboration</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="bericht">Bericht</label>
-            <textarea id="bericht" name="bericht" placeholder="Schrijf hier je bericht..." required></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
           </div>
-          <button type="submit" class="btn">Verstuur bericht</button>
+          <button type="submit" class="btn">Send message</button>
         </form>
       </div>
 
@@ -62,14 +62,14 @@
         <ul class="info-list">
           <li><span class="icon">📧</span> stefan_vergeer@icloud.com</li>
           <li><span class="icon">🌐</span> github.com/stefanwillem</li>
-          <li><span class="icon">📍</span> Nederland</li>
+          <li><span class="icon">📍</span> Netherlands</li>
         </ul>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>HTML Test Proef — <a href="index.html">Terug naar home</a></p>
+    <p>HTML Test Project — <a href="index.html">Back to home</a></p>
   </footer>
 
   <script src="script.js"></script>
