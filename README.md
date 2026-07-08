@@ -1,47 +1,51 @@
-# HTML Test Proef
+Local Development & Git Workflow
 
-Een responsive proefproject met 5 HTML-pagina's om online te experimenteren via GitHub Pages.
+This guide explains the basic commands needed to preview your project locally and manage your code using Git.
 
-## Live site
+⸻
 
-Na het activeren van GitHub Pages:
+1. Start a Local Development Server
 
-**https://stefanwillem.github.io/html-test-proef/**
+python3 -m http.server 8000
 
-## Pagina's
+Starts a local web server on port 8000, allowing you to preview your project in your browser before making or sharing changes.
 
-| Bestand | Pagina |
-|---------|--------|
-| `index.html` | Home |
-| `pagina2.html` | Over ons |
-| `pagina3.html` | Diensten |
-| `pagina4.html` | Galerij |
-| `pagina5.html` | Contact |
+⸻
 
-## GitHub Pages activeren
+2. Check Your Changes
 
-1. Ga naar **Settings → Pages**
-2. Source: **Deploy from a branch**
-3. Branch: **main**, folder: **/ (root)**
-4. Klik **Save**
+git status
 
-De site is binnen 1–2 minuten live.
+Displays the current status of your repository, including modified, new, and deleted files. Always run this command first to see what has changed.
 
-## HTML online bewerken
+⸻
 
-1. Open een `.html`-bestand in GitHub
-2. Klik het potlood-icoon (Edit)
-3. Pas de HTML aan
-4. Klik **Commit changes**
-5. Ververs de live site
+3. Stage Your Changes
 
-## Lokaal bekijken
+git add .
 
-Open `index.html` in je browser, of start een simpele server:
+Stages all modified and new files so they are ready to be included in the next commit.
 
-```bash
-cd html-test-proef
-python3 -m http.server 8080
-```
+⸻
 
-Ga naar http://localhost:8080
+4. Create a Commit
+
+git commit -m "Your message"
+
+Creates a snapshot of your staged changes. Replace “Your message” with a short, meaningful description of the changes you made.
+
+⸻
+
+5. Push Your Changes
+
+git push
+
+Uploads your committed changes to the remote GitHub repository, making them available to your team.
+
+⸻
+
+6. Create a Pull Request (Optional)
+
+gh pr create
+
+Creates a GitHub Pull Request so your changes can be reviewed and approved before they are merged into the main branch.
