@@ -326,7 +326,7 @@ git clone https://github.com/username/repository.git
 
 # Git Workflow
 
-A simple day-to-day workflow for saving and sharing your changes:
+A simple day-to-day workflow for saving and sharing your changes. Start the local development server first, then run these Git commands:
 
 ```bash
 git status
